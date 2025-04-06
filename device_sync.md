@@ -1,7 +1,7 @@
 markdown
 ### State Diagram – DeviceSync
 
-mermaid
+```mermaid
 stateDiagram-v2
     [*] --> Connected
     Connected --> Syncing: Data being transferred
@@ -16,3 +16,4 @@ Explanation:
 	•	Use Case: Sync Device Data
 
 ---
+```
