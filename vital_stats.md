@@ -1,7 +1,7 @@
 markdown
 ### State Diagram – VitalStats
 
-mermaid
+```mermaid
 stateDiagram-v2
     [*] --> Monitoring
     Monitoring --> Synced: Data pushed to system
@@ -9,7 +9,7 @@ stateDiagram-v2
     Flagged --> Reviewed: Analyst checks data
     Reviewed --> Synced
     Synced --> [*]
-
+```
 Explanation:
 	•	FR Reference: FR8 – Vital Statistics
 	•	Use Case: Monitor Vital Statistics
