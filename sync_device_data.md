@@ -1,7 +1,7 @@
 markdown
 ### Activity Diagram – Sync Device Data
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[Device connects to app]
     B --> C{Is device authorized?}
@@ -11,7 +11,7 @@ flowchart TD
     E -- No --> G[Retry or log error]
     F --> H([End])
     G --> H
-
+```
 Explanation:
 	•	FR Reference: FR4 – Device Integration
 	•	Use Case: Sync Device Data
