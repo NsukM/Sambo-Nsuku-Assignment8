@@ -2,7 +2,7 @@
 markdown
 ### Activity Diagram – Track Real-Time Activity
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[User starts workout session]
     B --> C[Wearable device streams data]
@@ -13,7 +13,7 @@ flowchart TD
     G --> H([End])
     D -- No --> I[Show connection error]
     I --> H
-
+```
 Explanation:
 	•	FR Reference: FR3 – Real-time Monitoring
 	•	User Story: US-001
