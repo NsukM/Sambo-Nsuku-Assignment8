@@ -1,7 +1,7 @@
 markdown
 ### Activity Diagram – View Patient Progress
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[Healthcare provider logs in]
     B --> C[Access patient list]
@@ -10,7 +10,7 @@ flowchart TD
     D -- No --> F[Show access error]
     E --> G([End])
     F --> G
-
+```
 Explanation:
 	•	FR Reference: FR8
 	•	Use Case: View Patient Progress (for external actors)
