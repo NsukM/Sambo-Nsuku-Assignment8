@@ -1,7 +1,7 @@
 markdown
 ### Activity Diagram – Share Achievements
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[User hits milestone]
     B --> C[Prompt user to share]
@@ -11,7 +11,7 @@ flowchart TD
     D -- No --> G[Store locally only]
     F --> H([End])
     G --> H
-
+```
 Explanation:
 	•	FR Reference: FR7 – Community Integration
 	•	Use Case: Share Achievements
