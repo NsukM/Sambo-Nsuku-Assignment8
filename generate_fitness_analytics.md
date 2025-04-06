@@ -11,7 +11,7 @@ flowchart TD
     C -- No --> G[Notify Data Analyst]
     F --> H([End])
     G --> H
-
+```
 Explanation:
 	•	FR Reference: FR5 – Fitness Analytics
 	•	Use Case: Generate Fitness Analytics
