@@ -10,10 +10,10 @@ stateDiagram-v2
     Failed --> Reconnecting
     Reconnecting --> Syncing
     Synced --> [*]
-
+```
 Explanation:
 	•	FR Reference: FR4 – Device Integration
 	•	Use Case: Sync Device Data
 
 ---
-```
+
