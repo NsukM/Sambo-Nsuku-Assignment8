@@ -1,7 +1,7 @@
 markdown
 ### Activity Diagram – Manage Profile
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[User opens profile screen]
     B --> C[Edit profile details]
@@ -10,7 +10,7 @@ flowchart TD
     D -- No --> F[Show validation errors]
     E --> G([End])
     F --> G
-
+```
 Explanation:
 	•	FR Reference: FR2 – Profile Management
 	•	Use Case: Manage Profile
