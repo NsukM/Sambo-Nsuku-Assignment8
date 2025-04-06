@@ -1,6 +1,6 @@
 ### State Diagram – UserAccount
 
-mermaid
+```mermaid
 stateDiagram-v2
     [*] --> Registered
     Registered --> Active: Email verified
@@ -8,7 +8,7 @@ stateDiagram-v2
     Locked --> Active: Admin unlocks
     Active --> Deactivated: User deletes account
     Deactivated --> [*]
-
+```
 Explanation:
 	•	FR Reference: FR1 – User Registration and Authentication
 	•	User Story: US-001 – “As a user, I want to register and log in”
