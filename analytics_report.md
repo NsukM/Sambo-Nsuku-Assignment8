@@ -1,7 +1,7 @@
 markdown
 ### State Diagram – AnalyticsReport
 
-mermaid
+```mermaid
 stateDiagram-v2
     [*] --> Queued
     Queued --> Processing: Data analyzed
@@ -10,7 +10,7 @@ stateDiagram-v2
     Failed --> Retried: Retry analysis
     Retried --> Completed
     Completed --> [*]
-
+```
 Explanation:
 	•	FR Reference: FR5 – Fitness Analytics
 	•	Use Case: Generate Fitness Analytics
