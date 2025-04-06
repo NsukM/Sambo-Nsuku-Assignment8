@@ -1,7 +1,7 @@
 markdown
 ### Activity Diagram – Receive Personalized Recommendations
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[System checks user history]
     B --> C{Has enough data?}
@@ -10,7 +10,7 @@ flowchart TD
     D --> F[Display to user]
     E --> F
     F --> G([End])
-
+```
 Explanation:
 	•	FR Reference: FR6 – Personalized Recommendations
 	•	User Story: US-002
