@@ -1,7 +1,7 @@
 markdown
 ### State Diagram – Recommendation
 
-mermaid
+```mermaid
 stateDiagram-v2
     [*] --> Generated
     Generated --> Viewed: User opens suggestion
@@ -9,7 +9,7 @@ stateDiagram-v2
     Viewed --> Rejected: User dismisses
     Rejected --> [*]
     Accepted --> [*]
-
+```
 Explanation:
 	•	FR Reference: FR6 – Personalized Recommendations
 	•	User Story: US-002 – “Get weekly personalized recommendations”
