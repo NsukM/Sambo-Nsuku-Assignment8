@@ -1,7 +1,7 @@
 markdown
 ### Activity Diagram – Monitor Vital Stats
 
-mermaid
+```mermaid
 flowchart TD
     A([Start]) --> B[Wearable collects sleep/HRV]
     B --> C[Data syncs to mobile app]
@@ -11,7 +11,7 @@ flowchart TD
     E -- No --> G[Log normally]
     F --> H([End])
     G --> H
-
+```
 Explanation:
 	•	FR Reference: FR8 – Vital Statistics
 	•	Use Case: Monitor Vital Statistics
