@@ -1,4 +1,5 @@
-# Assignments 9 – Modeling for NsukuSambo Fitness Tracker
+
+# Assignments 8 & 9 – Modeling for NsukuSambo Fitness Tracker
 
 This repository contains all the design modeling deliverables for the **NsukuSambo Fitness Tracker**, including:
 - **Assignment 8**: Object State & Activity Workflow Diagrams
@@ -37,32 +38,20 @@ These diagrams model complex user/system interactions and workflows.
 - `generate_fitness_analytics.md`
 
 #### Reflection
-See `reflection_assignment8.md` for:
-- Modeling challenges
-- Agile alignment
-- State vs Activity diagram insights
+- `reflection_assignment8.md`
 
 ---
 
 ### Assignment 9 – Domain Model and Class Diagram
 
 #### Domain Model
-See `domain_model.md` for:
-- Entities, attributes, methods
-- Relationships and business rules
+- `domain_model.md`: Describes all entities, attributes, methods, relationships, and business rules.
 
 #### Class Diagram
-See `class_diagram.md` for a Mermaid.js UML representation of the system:
-- Class structure
-- Multiplicities
-- Relationships and responsibilities
+- `class_diagram.md`: Mermaid.js class diagram representing the object-oriented structure of the system.
 
 #### Reflection
-See `reflection_assignment9.md` for:
-- Challenges faced
-- Alignment with previous assignments
-- Trade-offs made
-- Lessons on object-oriented design
+- `reflection_assignment9.md`: Detailed explanation of challenges, design reasoning, and alignment with previous assignments.
 
 ---
 
@@ -83,4 +72,7 @@ This ensures full traceability between system design and Agile planning artifact
 
 - **Name**: Nsuku Sambo  
 - **Student Number**: 221358986  
-- **Module**: Software Engineering
+- **Module**: Software Engineering  
+
+
+
