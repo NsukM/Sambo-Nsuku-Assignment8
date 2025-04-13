@@ -1,12 +1,18 @@
-# Assignment 8 – Object State and Activity Modeling for Fitness Tracker
+# Assignments 9 – Modeling for NsukuSambo Fitness Tracker
 
-This repository contains UML **State Transition Diagrams** and **Activity Workflow Diagrams** created for the **NsukuSambo Fitness Tracker**. These models demonstrate object lifecycles, user workflows, and how they align with functional requirements, user stories, and Agile tasks.
+This repository contains all the design modeling deliverables for the **NsukuSambo Fitness Tracker**, including:
+- **Assignment 8**: Object State & Activity Workflow Diagrams
+- **Assignment 9**: Domain Model, Class Diagram, and Reflection
+
+These artifacts demonstrate system lifecycles, user workflows, class structure, and alignment with Agile requirements.
 
 ---
 
 ## Contents
 
-### State Transition Diagrams
+### Assignment 8 – Object State and Activity Modeling
+
+#### State Transition Diagrams
 These diagrams show how system objects evolve over time in response to events.
 
 - `user_account.md`
@@ -18,7 +24,7 @@ These diagrams show how system objects evolve over time in response to events.
 - `device_sync.md`
 - `analytics_report.md`
 
-### Activity Workflow Diagrams
+#### Activity Workflow Diagrams
 These diagrams model complex user/system interactions and workflows.
 
 - `track_real_time_activity.md`
@@ -30,27 +36,46 @@ These diagrams model complex user/system interactions and workflows.
 - `sync_device_data.md`
 - `generate_fitness_analytics.md`
 
+#### Reflection
+See `reflection_assignment8.md` for:
+- Modeling challenges
+- Agile alignment
+- State vs Activity diagram insights
+
+---
+
+### Assignment 9 – Domain Model and Class Diagram
+
+#### Domain Model
+See `domain_model.md` for:
+- Entities, attributes, methods
+- Relationships and business rules
+
+#### Class Diagram
+See `class_diagram.md` for a Mermaid.js UML representation of the system:
+- Class structure
+- Multiplicities
+- Relationships and responsibilities
+
+#### Reflection
+See `reflection_assignment9.md` for:
+- Challenges faced
+- Alignment with previous assignments
+- Trade-offs made
+- Lessons on object-oriented design
+
 ---
 
 ## Integration with Prior Work
 
-All diagrams are mapped to:
+All diagrams and models are mapped to:
 
-- **Functional Requirements** from Assignment 4  
-- **Use Case Specifications** from Assignment 5  
-- **User Stories** from Assignment 6  
-- **Kanban Issues** from Assignment 7 (GitHub Board)
+- **Functional Requirements** (Assignment 4)  
+- **Use Case Specifications** (Assignment 5)  
+- **User Stories** (Assignment 6)  
+- **Kanban Board Tasks** (Assignment 7)
 
-This ensures traceability between design artifacts and Agile development practices.
-
----
-
-## Reflection
-
-Please see `reflection_assignment8.md` for a discussion of:
-- Modeling challenges
-- Agile alignment
-- Comparison of State vs Activity diagrams
+This ensures full traceability between system design and Agile planning artifacts.
 
 ---
 
